@@ -332,11 +332,6 @@ footer p {
     color: var(--cor-texto);
 }
 
-footer p a {
-    color: var(--cor-primaria);
-    font-weight: 600;
-}
-
 .redes-sociais {
     display: flex;
     gap: 15px;
