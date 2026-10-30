@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Entre em contato com a White Water Rafting para tirar dúvidas sobre reservas, passeios em corredeiras e enviar sugestões.">
+    <meta name="author" content="Marco Magalhães">
+    <title>Fale Conosco - White Water Rafting</title>
+    <link rel="stylesheet" href="estilos/rafting.css">
+</head>
+<body>
+    <header>
+        <img src="imagens/logo.png" alt="Logo da White Water Rafting">
+        <nav>
+            <a href="index.html">Página Inicial</a>
+            <a href="sobre.html">Sobre Nós</a>
+            <a href="passeios.html">Passeios</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="titulo-pagina">Fale Conosco - White Water Rafting</h1>
+
+        <section class="contato-secao">
+            <h2>Informações de Contato</h2>
+            <div class="info-empresa">
+                <p><strong>Endereço:</strong> Estrada das Corredeiras, Km 12, Brotas - SP, 17380-000</p>
+                <p><strong>Telefone:</strong> (14) 3653-0000 / (14) 99888-7766</p>
+                <p><strong>E-mail:</strong> contato@whitewaterrafting.com.br</p>
+            </div>
+            <div class="mapa-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59058.12879187851!2d-48.16335035!3d-22.28311885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c779b1ef129997%3A0x6d9f9446251f9d5!2sBrotas%2C%20SP%2C%2017380-000!5e0!3m2!1spt-BR!2sbr!4v1710000000000!5m2!1spt-BR!2sbr" width="400" height="250" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section class="equipe-secao">
+            <h2>Nossa Equipe</h2>
+            <figure>
+                <img src="imagens/funcionario1.jpg" alt="Carlos Silva - Guia Chefe de Rafting">
+                <figcaption>Carlos Silva - Guia Chefe de Rafting</figcaption>
+            </figure>
+            <figure>
+                <img src="imagens/funcionario2.jpg" alt="Mariana Costa - Coordenadora de Reservas">
+                <figcaption>Mariana Costa - Coordenadora de Reservas</figcaption>
+            </figure>
+            <figure>
+                <img src="imagens/funcionario3.jpg" alt="Lucas Oliveira - Instrutor de Segurança">
+                <figcaption>Lucas Oliveira - Instrutor de Segurança</figcaption>
+            </figure>
+        </section>
+
+        <section class="formulario-secao">
+            <h2>Envie uma Mensagem</h2>
+            <form action="#" method="post">
+                <div class="campo-form">
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+
+                <div class="campo-form">
+                    <label for="email">Endereço de E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <fieldset class="campo-radio">
+                    <legend>Finalidade da Mensagem:</legend>
+                    <label for="consulta">
+                        <input type="radio" id="consulta" name="finalidade" value="consulta" checked>
+                        Consulta Geral
+                    </label>
+                    <label for="reserva">
+                        <input type="radio" id="reserva" name="finalidade" value="reserva">
+                        Pergunta sobre Reserva
+                    </label>
+                    <label for="sugestao">
+                        <input type="radio" id="sugestao" name="finalidade" value="sugestao">
+                        Sugestão de Site
+                    </label>
+                </fieldset>
+
+                <div class="campo-form">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                </div>
+
+                <div class="campo-checkbox">
+                    <label for="newsletter">
+                        <input type="checkbox" id="newsletter" name="newsletter" value="sim">
+                        Quero receber a newsletter mensal
+                    </label>
+                </div>
+
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 White Water Rafting | Marco Magalhães | <a href="imagens/wireframe-contato.svg" target="_blank">Wireframe</a></p>
+        <nav class="redes-sociais">
+            <a href="https://www.facebook.com">
+                <img src="imagens/facebook-bw.svg" alt="Facebook">
+            </a>
+            <a href="https://www.youtube.com">
+                <img src="imagens/youtube-bw.svg" alt="YouTube">
+            </a>
+            <a href="https://www.instagram.com">
+                <img src="imagens/instagram-bw.svg" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>
